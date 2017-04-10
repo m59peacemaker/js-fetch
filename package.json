@@ -1,0 +1,32 @@
+{
+  "name": "@m59/fetch",
+  "version": "0.0.0",
+  "description": "Fetch API with conveniences I like.",
+  "keywords": [
+    "fetch",
+    "api",
+    "convenience",
+    "helper",
+    "wrap",
+    "shortcut",
+    "concise"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "tape '*.test.js'"
+  },
+  "author": "Johnny Hauser <johnnyhauser@gmail.com>",
+  "license": "CC0-1.0",
+  "browser": {
+    "node-fetch": false
+  },
+  "dependencies": {
+    "@m59/qs": "^1.4.0",
+    "node-fetch": "^2.0.0-alpha.3"
+  },
+  "devDependencies": {
+    "form-data": "^2.1.4",
+    "jsonplaceholder": "^0.3.3",
+    "tape": "^4.6.3"
+  }
+}
