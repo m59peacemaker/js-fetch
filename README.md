@@ -34,10 +34,8 @@ The first argument can be a url or options object. If you pass only an options o
 
 ```js
 {
-  url: '/foo
-  query: {
-    bar: 123
-  }
+  url: '/foo'
+  query: { bar: 123 }
 } // => /foo?bar=123
 ```
 

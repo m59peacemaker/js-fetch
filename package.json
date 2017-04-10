@@ -15,6 +15,10 @@
   "scripts": {
     "test": "tape '*.test.js'"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m59peacemaker/js-fetch"
+  },
   "author": "Johnny Hauser <johnnyhauser@gmail.com>",
   "license": "CC0-1.0",
   "browser": {
